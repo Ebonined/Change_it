@@ -4,7 +4,7 @@ A little function that can change NaN values in any index column in a pandas.Dat
 
 ## Description
 
-    Runs a function`func` on every column specified in the index `strindex`
+Runs a function`func` on every column specified in the index `strindex`
 
 ## Parameters
 
