@@ -8,13 +8,21 @@ A little function that can change NaN values in any index column in a pandas.Dat
 
 ## Parameters
 
-    frame : Dataframecolumns : list, tuple, ndarray, str(e.g. for Dataframe.iloc; '0:1' and for Dataframe.loc; 'column1:column2').
-    strindex : bool,
-        specify whether `True` for df.iloc or `False` for df.loc.
-    func: function:
-        function to run on each column.
-    inplace: bool,
-        select to change the initial datafram or return a new one with the previous unchanged.
+### frame
+
+    Dataframecolumns : list, tuple, ndarray, str(e.g. for Dataframe.iloc; '0:1' and for Dataframe.loc; 'column1:column2').
+
+### strindex
+
+    bool, specify whether `True` for df.iloc or `False` for df.loc.
+
+### func
+
+    function:function to run on each column.
+
+### inplace
+
+    bool,select to change the initial datafram or return a new one with the previous unchanged.
 
 ## return
 
